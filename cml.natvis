@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AutoVisualizer xmlns="http://schemas.microsoft.com/vstudio/debugger/natvis/2010">
+
+  <!-- For CML 2.0 -->
+  <Type Name="cml::quaternion&lt;*,cml::compiled&lt;-1,-1,void&gt;,*,*&gt;" Inheritable="true">
+    <DisplayString>W={m_data[order_type::W]} X={m_data[order_type::X]} Y={m_data[order_type::Y]} Z={m_data[order_type::Z]}</DisplayString>
+  </Type>
+
+  <Type Name="cml::vector&lt;*,*&gt;" Inheritable="true">
+    <DisplayString>{m_data}</DisplayString>
+  </Type>
+
+</AutoVisualizer>
